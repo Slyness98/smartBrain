@@ -1,14 +1,15 @@
 .form {
   width: 700px;
-  background: 
-radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
+  background: transparent;
+  /* background: linear-gradient(to top left, #b4b8bb 53%, #481922 98%); */
+/* radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.15) 30%, rgba(255,255,255,.3) 32%, rgba(255,255,255,0) 33%) 0 0,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.3) 13%, rgba(255,255,255,0) 14%) 0 0,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 17%, rgba(255,255,255,.43) 19%, rgba(255,255,255,0) 20%) 0 110px,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) -130px -170px,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.2) 11%, rgba(255,255,255,.4) 13%, rgba(255,255,255,0) 14%) 130px 370px,
 radial-gradient(rgba(255,255,255,0) 0, rgba(255,255,255,.1) 11%, rgba(255,255,255,.2) 13%, rgba(255,255,255,0) 14%) 0 0,
-linear-gradient(45deg, #e218f4 0%, #FF50EE 20%, #dd16d3 30%, #760ea1 40%, #83096e 50%, #006782 60%, #4a6da5 70%, #68c8d8 80%, #19cbea 90%, #19cbea 100%);
+linear-gradient(45deg, #e218f4 0%, #FF50EE 20%, #dd16d3 30%, #760ea1 40%, #83096e 50%, #006782 60%, #4a6da5 70%, #68c8d8 80%, #19cbea 90%, #19cbea 100%); */
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
-background-color: #840b2a;
+/* background-color: #840b2a; */
 }
 
