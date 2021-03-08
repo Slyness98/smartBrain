@@ -20,13 +20,12 @@ const particleOptions= {
        "value": 60,
        "density":{
           "enable": true,
-          "value_area": 800
-          }
+          "value_area": 2000
+        }
     },
      "color":{
        "value":"#FFF"
-  }
-
+    }
   }
 };
 
