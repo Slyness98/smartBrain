@@ -17,7 +17,7 @@ import 'tachyons';
 const particleOptions= {  
   "particles": {
     "number": {
-       "value": 100,
+       "value": 60,
        "density":{
           "enable": true,
           "value_area": 800
@@ -150,16 +150,6 @@ class App extends Component {
 //clear images displayed in app from one user to the next. 
 //Bug can't be fixed by manipulating onRouteChange routes without compromising other functionalities
 
-  componentWillUnmount() {
-    if(this.state.user.id !== ('' || undefined || null)) {
-      let initialWithPersistedUser = initialState;
-      initialWithPersistedUser.user = this.state.user;
-      this.setState(initialWithPersistedUser)
-    } else {
-      this.setState(initialState)
-    }
-  }
-
   render() {
     const { isSignedIn, imageUrl, route, box} = this.state;
     
@@ -173,7 +163,7 @@ class App extends Component {
      <Navigation clearState={this.clearState} isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
      {route === 'home'
    
-     ? <div> 
+     ? <div className="homeContainer"> 
        <Logo />
        <Rank name={this.state.user.name} entries={this.state.user.entries}/>
        <ImageLinkForm 
